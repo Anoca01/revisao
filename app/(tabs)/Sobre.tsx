@@ -1,3 +1,4 @@
+
 import { StyleSheet} from 'react-native';
 
 import ParallaxScrollView from '@/components/ParallaxScrollView';
@@ -5,7 +6,7 @@ import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { IconSymbol } from '@/components/ui/IconSymbol';
 
-export default function TabEstrutura() {
+export default function TabSobre() {
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#E6E6FA', dark: '#353636' }}
@@ -18,8 +19,15 @@ export default function TabEstrutura() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Ana Clara de Paula Neutzling</ThemedText>
-      </ThemedView>      
+        <ThemedText type="title">Como criar um projeto</ThemedText>
+      </ThemedView>
+      <ThemedText>O primeiro passo para criar um projeto é:</ThemedText>
+      <ThemedText>No terminal vc precisa escrever "npx create-expo-app 'nome do projeto'" para criar um novo projeto</ThemedText>
+      <ThemedText>Apos isso vc precisa colocar "npm install 'nome das dependencias' --save" para instalar as dependencias dos arquivos no projeto</ThemedText>
+      <ThemedText>depois so colocar o "code ." para mexer no arquivo</ThemedText>
+      <ThemedText>Ai no visual studio code vc coloca "npm run android"</ThemedText>
+
+
       
     </ParallaxScrollView>
   );

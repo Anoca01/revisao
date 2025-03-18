@@ -18,9 +18,17 @@ export default function TabEstrutura() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Ana Clara de Paula Neutzling</ThemedText>
+        <ThemedText type="title">Organização do projeto</ThemedText>
       </ThemedView>      
-      
+      <ThemedText>1. Definição do Escopo e Objetivos</ThemedText>
+        <ThemedText>2. Escolha de Linguagens de Programação</ThemedText>
+        <ThemedText>3. Estrutura de Pastas e Arquivos</ThemedText>
+        <ThemedText>4. Planejamento de Desenvolvimento e Metodologia</ThemedText>
+        <ThemedText>5. Design do Sistema</ThemedText>
+        <ThemedText>6. Gerenciamento de Dependências e Bibliotecas</ThemedText>
+        <ThemedText>7. Testes e Depuração</ThemedText>
+        <ThemedText>8. Documentação</ThemedText>
+        <ThemedText>9. Interface com o Usuário (UI)</ThemedText>
     </ParallaxScrollView>
   );
 }
